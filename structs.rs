@@ -21,4 +21,9 @@ struct Rectangle {
 }
 
 fn main() {
+  let name = String::from("Peter");
+  let age = 32;
+  let peter = Person { name, age };
+  
+  println("{:?}", peter);
 }
